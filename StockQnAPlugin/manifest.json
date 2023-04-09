@@ -1,0 +1,19 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "StockQnA",
+    "name_for_model": "StockQnA",
+    "description_for_human": "Your personal assistant for anything StockMarket Related. Manage your watchlist and get stock quotes",
+    "description_for_model": "A simple API to get stock prices and manage a watchlist. Call this api for anything stock related and make sure the correct stock symbol is passed to the API",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "https://58gxw2-8000.csb.app/openapi.json",
+      "is_user_authenticated": false
+    },
+    "logo_url": "http://localhost:8000/static/stock-market.png",
+    "contact_email": "support@example.com",
+    "legal_info_url": "http://www.example.com/legal"
+  }
+  
